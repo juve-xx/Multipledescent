@@ -176,27 +176,6 @@ mainvalue<-function(Values){
 
 
 
-Risk=NULL
-psisum=c(seq(5,950,5),seq(955,1050,5),seq(1075,1600,25))/300
-psi=10/3
-
-
-for (iter in psisum){
-  
-  psi1=(iter)
-  psi2=(iter)
-  psi3=(iter)
-  psi4=(iter*3)
-  Values=getvalue(lbd=0.0001,psi=psi,F1=1,tau=0.1,activation1,activation2,activation3,activation4,psi1,psi2,psi3,psi4)
-
-  TT1=mainvalue(Values)
-  
-  Risk<-c(Risk,TT1)
-}
-
-Complex=(1+1+1+3)*psisum/psi
-plot(Complex,Risk,type="l")
-
 
 
 
