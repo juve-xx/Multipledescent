@@ -1,0 +1,11 @@
+Package: MRFM
+Type: Package
+Title: Multiple Descent in the Multiple Random Feature Model
+Version: 0.0.1
+Authors@R: c(person("Xuran", "Meng", email = "u3007800@connect.hku.hk", role = c("aut","cre")),person("Yuan", "Cao", email = "yuancao@hku.hk", role = c("aut")),person("Jianfeng", "Yao", email = "jeffyao@cuhk.edu.cn", role = c("aut")))
+Description: Provide functions used to give theoretical calculations in multiple random feature models (MRFM). It gives theoretical curves of MRFM. You may refer to Meng et al. (2022) <arXiv:2208.09897>.
+License: GPL (>= 3)
+Imports: stats 
+LazyData: true
+RoxygenNote: 7.2.3
+
