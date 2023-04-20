@@ -2,7 +2,7 @@
 This is the supplementary material for the paper "Multiple descent in the multiple random feature model". We also provide the codes of experiments in the paper.
 
 
-The code of theoretical curves for multiple random feature models are given in the folder multiple. One can install the packages to get the theoretical points. 
+The code of theoretical curves for multiple random feature models are given in the folder MRFM. One can install the packages to get the theoretical points. 
 
 The package contains the function:
 1. getvalue: an ensemble function, the first four inputs should be $\lambda$, the tuning parameter on ridge regression, $\psi:n/d$ (sample size/data dimension), F1: the norm of $\beta$, and $\tau$: the standard deviation of  noise. Then the remained inputs should be activation functions $\sigma_j(x)$, and the corresponding ratio $N_j/d$. $N_j$ is the dimension of the random feature with $\sigma_j$ and $d$ is data dimension. The outputs are Values, which contains all the information of the MRFM.
