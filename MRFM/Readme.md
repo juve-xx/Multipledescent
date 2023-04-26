@@ -1,4 +1,4 @@
-It is the readme file. To get the theoretical value, here is an example:
+Please refer to the paper: multiple descent in multiple random feature model. To get the theoretical value, here is an example:
 
 library(MRFM)
 
