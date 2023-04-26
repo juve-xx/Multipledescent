@@ -1,6 +1,9 @@
 It is the readme file. To get the theoretical value, here is an example:
+
 library(MRFM)
+
 Values=getvalue(lbd=0.001,psi=10/3,F1=1,tau=0.1,ReLU,ReLU,ReLU,psi1=1,psi2=2,psi3=1)
+
 mainvalue(Values)
 
 
